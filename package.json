@@ -4,12 +4,15 @@
   "private": true,
   "dependencies": {
     "bitcoin-computer-lib": "^0.7.0-beta",
+    "express": "^4.18.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "serve": "^13.0.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
